@@ -1,0 +1,50 @@
+body{
+
+}
+.gallery{
+	float:left;
+	width: 100%;
+
+}
+.divImageGallery{
+	display: inline-block;
+	margin-top: 55px;
+	padding: 0 0 5px;
+	text-align: center;
+	width: 100%
+
+}
+
+.divImageGallery img {
+height: 70px; 
+
+}
+
+.divImageGallery img:hover{
+	border: 3px solid #80B666;
+	cursor: pointer;
+
+}
+
+.divImageGallery img:active{
+	border: 3px solid #80B666;	
+}
+
+.divImage{
+	height: 340px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px;
+	text-align: center;
+	width: 455px;
+	border: 3px;
+
+}
+
+.divImage img{
+	margin: auto auto;
+	height: 340px;
+	background-color: blue;
+
+
+}
